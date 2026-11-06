@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1128" />
+      <stop offset="50%" stop-color="#070b1c" />
+      <stop offset="100%" stop-color="#040711" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="cyanGlow" cx="48%" cy="22%" r="35%">
+      <stop offset="0%" stop-color="#22e4ff" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#1a75ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#070b1c" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="goldGlow" cx="68%" cy="30%" r="30%">
+      <stop offset="0%" stop-color="#ffcf54" stop-opacity="0.3" />
+      <stop offset="55%" stop-color="#d49b27" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#070b1c" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Top Horizon Arc Gradients -->
+    <linearGradient id="arcOuterGrad" x1="20%" y1="50%" x2="80%" y2="50%">
+      <stop offset="0%" stop-color="#0c1b4d" stop-opacity="0.2" />
+      <stop offset="22%" stop-color="#1d56b8" />
+      <stop offset="48%" stop-color="#33c9dc" />
+      <stop offset="75%" stop-color="#f2cf66" />
+      <stop offset="100%" stop-color="#c9932b" />
+    </linearGradient>
+
+    <linearGradient id="arcInnerGrad" x1="22%" y1="50%" x2="78%" y2="50%">
+      <stop offset="0%" stop-color="#0b1536" stop-opacity="0.1" />
+      <stop offset="25%" stop-color="#1a49a3" />
+      <stop offset="50%" stop-color="#24a8c2" />
+      <stop offset="78%" stop-color="#deb853" />
+      <stop offset="100%" stop-color="#b58021" />
+    </linearGradient>
+
+    <linearGradient id="arcCoreLine" x1="24%" y1="50%" x2="76%" y2="50%">
+      <stop offset="0%" stop-color="#1e52bd" stop-opacity="0" />
+      <stop offset="28%" stop-color="#3bb6eb" />
+      <stop offset="50%" stop-color="#a8ffff" />
+      <stop offset="72%" stop-color="#fff3b0" />
+      <stop offset="100%" stop-color="#e3a836" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- D Top & Left Stem Gradients -->
+    <linearGradient id="dTopOuterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d63d4" />
+      <stop offset="55%" stop-color="#2994c9" />
+      <stop offset="100%" stop-color="#28b8d4" />
+    </linearGradient>
+
+    <linearGradient id="dTopInnerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c45ab" />
+      <stop offset="60%" stop-color="#1d74b8" />
+      <stop offset="100%" stop-color="#219bc2" />
+    </linearGradient>
+
+    <linearGradient id="dStemOuterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e45b0" />
+      <stop offset="50%" stop-color="#152c7a" />
+      <stop offset="100%" stop-color="#0d1b52" />
+    </linearGradient>
+
+    <!-- Main S-Flow Ribbon (D Bottom -> Center Curve -> F Top) -->
+    <linearGradient id="sFlowOuterGrad" x1="15%" y1="90%" x2="88%" y2="25%">
+      <stop offset="0%" stop-color="#14276e" />
+      <stop offset="22%" stop-color="#1c49a8" />
+      <stop offset="45%" stop-color="#26a9c9" />
+      <stop offset="62%" stop-color="#6fc7b0" />
+      <stop offset="80%" stop-color="#f5d36c" />
+      <stop offset="92%" stop-color="#ffde7a" />
+      <stop offset="100%" stop-color="#cf962b" />
+    </linearGradient>
+
+    <linearGradient id="sFlowInnerGrad" x1="18%" y1="85%" x2="85%" y2="30%">
+      <stop offset="0%" stop-color="#1c3b99" />
+      <stop offset="25%" stop-color="#2165c4" />
+      <stop offset="48%" stop-color="#2bc7de" />
+      <stop offset="68%" stop-color="#8ad4a6" />
+      <stop offset="85%" stop-color="#e3bd59" />
+      <stop offset="100%" stop-color="#c48b25" />
+    </linearGradient>
+
+    <linearGradient id="sFlowNeonLine" x1="20%" y1="90%" x2="80%" y2="25%">
+      <stop offset="0%" stop-color="#2962cc" stop-opacity="0" />
+      <stop offset="18%" stop-color="#3399eb" />
+      <stop offset="45%" stop-color="#7affff" />
+      <stop offset="65%" stop-color="#b5ffea" />
+      <stop offset="85%" stop-color="#fff0a6" />
+      <stop offset="100%" stop-color="#ebbd4b" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- F Stem & Mid-Bar Gradients -->
+    <linearGradient id="fBodyGrad" x1="20%" y1="100%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#1f49b5" />
+      <stop offset="35%" stop-color="#2575cf" />
+      <stop offset="62%" stop-color="#2abdc7" />
+      <stop offset="85%" stop-color="#87c793" />
+      <stop offset="100%" stop-color="#e0b451" />
+    </linearGradient>
+
+    <linearGradient id="fFacetLeftGrad" x1="0%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#193b96" />
+      <stop offset="45%" stop-color="#2168bf" />
+      <stop offset="80%" stop-color="#28b5c9" />
+      <stop offset="100%" stop-color="#6ec4a7" />
+    </linearGradient>
+
+    <linearGradient id="fBarTopFacetGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#29b8c9" />
+      <stop offset="45%" stop-color="#7dc79c" />
+      <stop offset="100%" stop-color="#e5b84f" />
+    </linearGradient>
+
+    <!-- Drop Shadow & Glow Filters -->
+    <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#00030a" flood-opacity="0.75" />
+    </filter>
+
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 1. App Icon Squircle Background -->
+  <rect width="1024" height="1024" rx="225" ry="225" fill="url(#bgGrad)" />
+
+  <!-- Ambient Backlights -->
+  <circle cx="490" cy="240" r="360" fill="url(#cyanGlow)" />
+  <circle cx="670" cy="310" r="300" fill="url(#goldGlow)" />
+
+  <!-- 2. Top Horizon Sun/Moon Arc -->
+  <g filter="url(#dropShadow)">
+    <!-- Outer Bevel of Arc -->
+    <path d="M 225 344
+             A 305 305 0 0 1 794 344
+             L 752 344
+             A 265 265 0 0 0 267 344
+             Z" fill="url(#arcOuterGrad)" />
+
+    <!-- Inner Bevel of Arc -->
+    <path d="M 267 344
+             A 265 265 0 0 1 752 344
+             L 715 344
+             A 228 228 0 0 0 304 344
+             Z" fill="url(#arcInnerGrad)" />
+
+    <!-- Glowing Horizon Crease Line -->
+    <path d="M 258 344 A 274 274 0 0 1 761 344" fill="none" stroke="url(#arcCoreLine)" stroke-width="5.5" stroke-linecap="round" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- 3. Upper 'D' Cap (Flows into Center S-Curve) -->
+  <g filter="url(#dropShadow)">
+    <!-- Top Outer Facet of D -->
+    <path d="M 116 364
+             H 334
+             C 405 364, 462 392, 498 442
+             C 486 458, 476 476, 469 495
+             C 440 436, 392 402, 330 402
+             H 156
+             C 130 402, 116 385, 116 364 Z" fill="url(#dTopOuterGrad)" />
+
+    <!-- Top Inner Facet of D -->
+    <path d="M 156 402
+             H 330
+             C 392 402, 440 436, 469 495
+             C 464 509, 461 523, 459 536
+             C 435 476, 386 441, 326 441
+             H 194
+             C 154 441, 132 424, 123 386
+             C 132 396, 143 402, 156 402 Z" fill="url(#dTopInnerGrad)" />
+  </g>
+
+  <!-- 4. Letter 'F' Vertical Stem & Crossbar -->
+  <g filter="url(#dropShadow)">
+    <!-- Main F Stem & Lower Bar Facet -->
+    <path d="M 623 482
+             V 551
+             H 812
+             C 812 595, 782 628, 735 628
+             H 623
+             V 724
+             C 623 768, 591 804, 548 804
+             V 620
+             C 548 558, 576 512, 623 482 Z" fill="url(#fBodyGrad)" />
+
+    <!-- F Left Vertical Bevel Facet -->
+    <path d="M 586 520
+             V 794
+             C 565 802, 548 804, 548 804
+             V 620
+             C 548 578, 562 545, 586 520 Z" fill="url(#fFacetLeftGrad)" opacity="0.85" />
+
+    <!-- F Crossbar Upper Bevel Facet -->
+    <path d="M 586 551
+             H 812
+             C 810 568, 803 582, 792 592
+             H 586
+             Z" fill="url(#fBarTopFacetGrad)" />
+  </g>
+
+  <!-- 5. Vertical Left Stem of 'D' & Continuous 'S' Flow Ribbon -->
+  <g filter="url(#dropShadow)">
+    <!-- Left Outer Vertical Bevel of D -->
+    <path d="M 157 455
+             C 172 462, 185 463, 200 463
+             V 750
+             L 157 804
+             V 455 Z" fill="url(#dStemOuterGrad)" />
+
+    <!-- Inner Vertical Bevel of D + S-Curve Outer Band -->
+    <path d="M 200 463
+             C 220 463, 233 476, 233 496
+             V 727
+             H 332
+             C 414 727, 464 674, 473 584
+             C 486 452, 558 364, 692 364
+             H 908
+             C 908 408, 876 441, 830 441
+             H 692
+             C 596 441, 544 504, 534 602
+             C 521 726, 444 804, 332 804
+             H 157
+             L 200 750
+             V 463 Z" fill="url(#sFlowOuterGrad)" />
+
+    <!-- S-Curve Inner Bevel Band (Creates the 3D Chiseled Channel) -->
+    <path d="M 200 750
+             H 332
+             C 428 750, 488 686, 499 588
+             C 512 470, 578 398, 692 398
+             H 896
+             C 884 425, 860 441, 830 441
+             H 692
+             C 596 441, 544 504, 534 602
+             C 521 726, 444 804, 332 804
+             H 157
+             L 200 750 Z" fill="url(#sFlowInnerGrad)" />
+
+    <!-- Luminous Cyan-to-Gold Energy Line Along the S-Curve -->
+    <path d="M 215 752
+             H 332
+             C 425 752, 486 688, 497 588
+             C 510 468, 576 398, 692 398
+             H 865" fill="none" stroke="url(#sFlowNeonLine)" stroke-width="5.5" stroke-linecap="round" filter="url(#neonGlow)" />
+  </g>
+</svg>

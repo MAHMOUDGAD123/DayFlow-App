@@ -1,3 +1,4 @@
+import { AppLogo } from '@/components/common/AppLogo';
 import { AppText } from '@/components/common/AppText';
 import { Button } from '@/components/common/Button';
 import { Card } from '@/components/common/Card';
@@ -271,6 +272,17 @@ export default function SettingsScreen() {
 
         {/* Data & Local Backup Section */}
         <BackupSettingsSection />
+
+        {/* App Branding Footer */}
+        <View style={styles.brandingFooter}>
+          <AppLogo size={52} />
+          <AppText weight="bold" style={[styles.brandingTitle, { color: colors.text }]}>
+            Dayflow
+          </AppText>
+          <AppText style={[styles.brandingVersion, { color: colors.textSecondary }]}>
+            v1.0.0
+          </AppText>
+        </View>
       </ScrollView>
 
       {/* Smart Time Picker Modal Preview */}
@@ -355,5 +367,18 @@ const styles = StyleSheet.create({
   subText: {
     fontSize: 13,
     lineHeight: 18,
+  },
+  brandingFooter: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 24,
+    gap: 6,
+  },
+  brandingTitle: {
+    fontSize: 16,
+    letterSpacing: 0.5,
+  },
+  brandingVersion: {
+    fontSize: 12,
   },
 });

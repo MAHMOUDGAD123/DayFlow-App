@@ -1,3 +1,4 @@
+import { AppLogo } from '@/components/common/AppLogo';
 import { Button } from '@/components/common/Button';
 import { Card } from '@/components/common/Card';
 import { setBackupFolderUri } from '@/db/repositories/backupRepo';
@@ -12,7 +13,6 @@ import {
     Clock,
     Folder,
     HardDrive,
-    Sparkles,
 } from 'lucide-react-native';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -32,7 +32,7 @@ export function OnboardingTutorialModal({ visible, onDismiss }: OnboardingTutori
 
   const slides = [
     {
-      icon: <Sparkles size={44} color={colors.accent} />,
+      icon: <AppLogo size={52} />,
       title: t('onboarding.slide1Title', 'Welcome to Dayflow'),
       desc: t(
         'onboarding.slide1Desc',

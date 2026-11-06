@@ -1,7 +1,17 @@
-# Dayflow ⏳
+<p align="center">
+  <img src="./app-banner.jpg" alt="Dayflow Banner" width="100%" />
+</p>
 
-> **Smart, Local-First Routine, Task & Emergency Daily Planner**  
-> Built with **React Native**, **Expo SDK 52**, **Drizzle ORM**, **SQLite**, and the **Cairo** typography system.
+<p align="center">
+  <img src="./assets/logo.svg" alt="Dayflow Logo" width="110" />
+</p>
+
+<h1 align="center">Dayflow ⏳</h1>
+
+<p align="center">
+  <strong>Smart, Local-First Routine, Task & Emergency Daily Planner</strong><br />
+  Built with <strong>React Native</strong>, <strong>Expo SDK 52</strong>, <strong>Drizzle ORM</strong>, <strong>SQLite</strong>, and the <strong>Cairo</strong> typography system.
+</p>
 
 ---
 
@@ -254,6 +264,11 @@ The database schema is defined in [`src/db/schema.ts`](file:///d:/Git/Apps/dayfl
 
 ```
 dayflow/
+├── app-banner.jpg                         # High-resolution hero banner
+├── assets/
+│   ├── favicon.png                        # App favicon and launch icon (2048x2048)
+│   ├── logo.svg                           # Official vector logo
+│   └── images/                            # Optimized asset variants
 ├── src/
 │   ├── app/                               # Expo Router v4 file-based routes
 │   │   ├── (tabs)/
