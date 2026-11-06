@@ -6,7 +6,7 @@
   <img src="./assets/logo.svg" alt="Dayflow Logo" width="110" />
 </p>
 
-<h1 align="center">Dayflow ⏳</h1>
+<h1 align="center">Dayflow App</h1>
 
 <p align="center">
   <strong>Smart, Local-First Routine, Task & Emergency Daily Planner</strong><br />
@@ -17,29 +17,31 @@
 
 ## 📑 Table of Contents
 
-1. [Overview & Philosophy](#-overview--philosophy)
-2. [Key Features](#-key-features)
-   - [Today View & 24-Hour Visual Timeline](#1-today-view--24-hour-visual-timeline)
-   - [Profiles Engine & Routine Architect](#2-profiles-engine--routine-architect)
-   - [Emergency Mode & Schedule Suspensions](#3-emergency-mode--schedule-suspensions)
-   - [Islamic Prayer Times & Relative Reminders](#4-islamic-prayer-times--relative-reminders)
-   - [Bilingual Arabic & English UI with Full RTL](#5-bilingual-arabic--english-ui-with-full-rtl)
-   - [Custom Modals & Thoughtful UX](#6-custom-modals--thoughtful-ux)
-   - [Android Home Screen Widgets](#7-android-home-screen-widgets)
-   - [Privacy, Offline-First & JSON Backups](#8-privacy-offline-first--json-backups)
-3. [System Architecture & How It Works](#-system-architecture--how-it-works)
-   - [Daily Routine Resolution Pipeline](#daily-routine-resolution-pipeline)
-   - [Non-Overlap Validation Algorithm](#non-overlap-validation-algorithm)
-   - [Emergency Filtration Logic](#emergency-filtration-logic)
-   - [Database Schema (Drizzle ORM + SQLite)](#database-schema-drizzle-orm--sqlite)
-4. [Project Structure](#-project-structure)
-5. [Tech Stack & Dependencies](#-tech-stack--dependencies)
-6. [Getting Started & Installation](#-getting-started--installation)
-   - [Prerequisites](#prerequisites)
-   - [Setup Steps](#setup-steps)
-   - [Running the App](#running-the-app)
-7. [Testing & Quality Assurance](#-testing--quality-assurance)
-8. [License](#-license)
+- [📑 Table of Contents](#-table-of-contents)
+- [🌟 Overview \& Philosophy](#-overview--philosophy)
+- [✨ Key Features](#-key-features)
+  - [1. Today View \& 24-Hour Visual Timeline](#1-today-view--24-hour-visual-timeline)
+  - [2. Profiles Engine \& Routine Architect](#2-profiles-engine--routine-architect)
+  - [3. Emergency Mode \& Schedule Suspensions](#3-emergency-mode--schedule-suspensions)
+  - [4. Islamic Prayer Times \& Relative Reminders](#4-islamic-prayer-times--relative-reminders)
+  - [5. Bilingual Arabic \& English UI with Full RTL](#5-bilingual-arabic--english-ui-with-full-rtl)
+  - [6. Custom Modals \& Thoughtful UX](#6-custom-modals--thoughtful-ux)
+  - [7. Android Home Screen Widgets](#7-android-home-screen-widgets)
+  - [8. Privacy, Offline-First \& JSON Backups](#8-privacy-offline-first--json-backups)
+- [🏗 System Architecture \& How It Works](#-system-architecture--how-it-works)
+  - [Daily Routine Resolution Pipeline](#daily-routine-resolution-pipeline)
+  - [Non-Overlap Validation Algorithm](#non-overlap-validation-algorithm)
+  - [Emergency Filtration Logic](#emergency-filtration-logic)
+  - [Database Schema (Drizzle ORM + SQLite)](#database-schema-drizzle-orm--sqlite)
+- [📁 Project Structure](#-project-structure)
+- [🛠 Tech Stack \& Dependencies](#-tech-stack--dependencies)
+- [🚀 Getting Started \& Installation](#-getting-started--installation)
+  - [Prerequisites](#prerequisites)
+  - [Setup Steps](#setup-steps)
+  - [Running the App](#running-the-app)
+- [🧪 Testing \& Quality Assurance](#-testing--quality-assurance)
+  - [Test Coverage Highlights](#test-coverage-highlights)
+- [📄 License](#-license)
 
 ---
 
